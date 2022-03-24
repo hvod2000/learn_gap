@@ -13,3 +13,10 @@ Print("15! = ", Product([1..15]), "\n");
 x := X(Rationals, "x");
 y := X(Rationals, "y");
 Print("(x-y)^4 = ", (x-y)^4, "\n");
+
+# Ax = B -> x = A^(-1) * B
+	A := [[3, 4], [5, 6]];
+	B := [1, 2];
+Print("A = ", A, "\n");
+Print("B = ", B, "\n");
+Print("Ax=B; x = ", A^(-1) * B, "\n");
