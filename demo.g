@@ -20,3 +20,5 @@ Print("(x-y)^4 = ", (x-y)^4, "\n");
 Print("A = ", A, "\n");
 Print("B = ", B, "\n");
 Print("Ax=B; x = ", A^(-1) * B, "\n");
+// How to find determinant of matrix with variables?! Is it even possible?
+// It is very easy in sagemath btw
